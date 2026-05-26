@@ -1,0 +1,1 @@
+# aws-securityhub-insight-aggregator
