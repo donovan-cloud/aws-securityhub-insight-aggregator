@@ -1,0 +1,15 @@
+{
+    "AggregationTimestamp": "2026-05-26T09:15:00Z",
+    "TotalCriticalHighViolations": 1,
+    "VulnerabilitiesDashboard": [
+        {
+            "FindingId": "arn:aws:securityhub:us-east-1:123456789012:subscription/aws-foundational-security-best-practices/v/1.0.0/S3.1",
+            "Title": "S3 buckets should have block public access settings enabled",
+            "Description": "This AWS control checks whether S3 buckets have block public access configurations enabled. The control fails if settings are permissive.",
+            "CompanyControlId": "S3.1",
+            "Severity": "CRITICAL",
+            "AwsAccountId": "123456789012",
+            "RemediationRecommendation": "For instructions on how to lock down S3 public flags, review the AWS S3 Access Block Documentation."
+        }
+    ]
+}
